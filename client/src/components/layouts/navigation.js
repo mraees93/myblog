@@ -37,7 +37,8 @@ const NavigationContainer = styled.div `
     .nav-link{
         color: black !important;
         &:hover{
-            background: skyblue;
+          background: white;
+          border-radius: 10%;
         }
     }
     .logo{
