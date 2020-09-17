@@ -11,7 +11,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const uri = "mongodb+srv://user:user@users.y6fgk.mongodb.net/blog?retryWrites=true&w=majority";
+const uri = "mongodb+srv://user:@users.y6fgk.mongodb.net/blog?retryWrites=true&w=majority";
 mongoose.connect(process.env.MONGODB_URI || uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
